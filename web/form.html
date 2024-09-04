@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Forms demo</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: beige;
+        }
+        legend{
+            font-size: larger;
+            font-weight: bolder;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <form action="./newfile.html">
+        <legend>Form</legend>
+        <fieldset>
+            <label for="name"> Name:</label>
+            <input type="text"><br><br>
+            <label for="password"> password:</label>
+            <input type="password"><br><br>
+            <label for="email">email:</label>
+            <input type="email"><br><br>
+            <input type="submit">
+            <input type="button" value="button">
+            <input type="reset"><br><br>
+            <div class="details"  >
+            <label for="languages">language:</label>
+            <input type="checkbox">malayalam
+            <input type="checkbox">english
+            <input type="checkbox">Tamil<br><br>
+
+            <label for="gender">Gender    :   </label>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <br>
+            <label for="range"> range:</label>
+            <input type="range" min="1" max="100" value="50">
+            <br> 
+            <label for="number">Telephone:</label>
+            <input type="tel"><br>
+            <label for="age">age:</label>
+            <input type="number" max="20" min="10" step="3"><br>
+            <label for="file">file:</label>
+            <input type="file"><br>
+            <label for="search">search:</label>
+            <input type="search"><br>
+            <label for="url">url:</label>
+            <input type="url"><br>
+            <label for="color">color:</label>
+            <input type="color"><br>
+            <label for="date">date:</label>
+            <input type="date"><br>
+            <label for="time">time:</label>
+            <input type="time"><br>
+            <label for="datetime">datetime:</label>
+            <input type="datetime-local"><br>
+            <label for="month">month:</label>
+            <input type="month"><br>
+            <label for="week">week:</label>
+            <input type="week"><br>
+            
+        </div>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
